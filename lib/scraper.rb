@@ -33,6 +33,6 @@ class Scraper
   end
   
   def print_courses
-    get_courses.each { |course| puts course.text.strip }
+    
   end
 end
