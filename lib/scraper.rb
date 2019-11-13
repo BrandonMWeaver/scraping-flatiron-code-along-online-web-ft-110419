@@ -24,6 +24,10 @@ class Scraper
     return get_page.css(".posts-holder")
   end
   
+  def make_courses
+    
+  end
+  
   def print_courses
     get_courses.each { |course| puts course.text.strip }
   end
