@@ -32,8 +32,4 @@ class Scraper
       course.description = post.css("p").text
     }
   end
-  
-  def print_courses
-    
-  end
 end
